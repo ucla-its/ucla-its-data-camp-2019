@@ -33,8 +33,6 @@ Now that Python is installed, you should get familiar with installing python _**
 
 The Anaconda distribution (which we just installed) goes beyond the Standard Library and comes pre-loaded with additional packages that are commonly used for scientific computing and data science; you can see a full list of the packages (depending on your OS and Python version) [here](https://docs.anaconda.com/anaconda/packages/pkg-docs/).
 
-- mention pandas here
-
 Although you will have access to hundreds of libraries immediately after installing Python, you will likely reach a point where you need to install additional packages to perform specialized tasks for you. When you want to install additional packages that are not part of either the Python Standard Library or part of the Anaconda distribution, you can do so in two different ways. 
 
 ##### Method 1: Via Anaconda
