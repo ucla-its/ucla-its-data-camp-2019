@@ -17,6 +17,17 @@ prj/                  <- Project name
 ├── output/           <- Any other output (model, etc)
 └── prj.ipynb         <- Jupyter Notebook(s)
 ```
+##### Keep Your Data Organized
+One aspect of keeping your project organized includes keeping your _data_ organized. As any data practitioner knows, preparing data for analysis often takes much more time than the actual analysis itself. This is because the data that you acquire for your project will often come from different sources and in different [formats](https://github.com/black-tea/ucla-its-data-camp-2019/blob/master/Pre-Course/Programming-Landscape.md#some-common-data-formats), will often be messy and/or incomplete, and will often need additional transformation to make it usable. Wrangling data to get it into a format suitable for analysis will be a big part of this course.
+  
+This process of preparing your data for analysis is called _tidying_ your data. Coined by Hadley Wickham, Chief Data Scientist at R Studio, he [describes](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) tidy data as conforming to the following specifications:
+  
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.  
+  
+Feel free to read more about tidy data [here](https://vita.had.co.nz/papers/tidy-data.pdf); although the code in both the vignette and paper are written for R users, we will be applying the same principles to prepare tidy Python Pandas dataframes. Tidy data is especially important for leverage machine learning libraries, which are designed to work this format.
+
 ### Make your Projects Reproducible
 You should aim for your data projects to be reproducible. With minimal effort, someone should be able to download your project and run your notebook to obtain the same results. One way to put this into practice is to make sure that you keep your data immutable - that it is never written over. Instead, maintain versions of the data, such as "raw" and "processed".
 ### Write Readable Code
