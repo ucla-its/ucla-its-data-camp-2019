@@ -24,3 +24,15 @@ Jupyter Notebook: Jupyter Notebooks are an interactive programming environment t
 Pandas: Pandas is a high-performance Python package for data wrangling. In this course we will also be using the GeoPandas package, which takes the core concept of the Pandas dataframe and leverages it for spatial analysis.
   
 scikit-learn: scikit-learn is a Python package for machine learning and data analysis. It’s the Swiss Army knife of data science: it covers classification, regression, clustering, dimensionality reduction, and so much more.
+
+### Some Common Data Formats
+##### Structured Data: RDBMS
+In many cases, data is stored within a database. Although there are many different kinds of databases, the most well-known type is a [relational database management system](https://en.wikipedia.org/wiki/Relational_database) (RDBMS), where data is organized into rows and columns. For data science work, we will typically have each row / record representing a data point, and each column representing a value / feature. 
+
+Within organizations, databases will typically be the starting point for any analytical work, and you will most likely use some version of Structured Query Language (SQL) to work with this data. I _**highly**_ recommend you spend time some time learning the basics of SQL, since it is an indispensible language for working with data. In fact, roughly 75% of my work is completed within databases using SQL.
+
+##### Structured Data: CSV
+The most common format for importing / exporting data from spreadsheets and databases is a CSV (comma-separated-values) file, defined in [RFC 4180](https://tools.ietf.org/html/rfc4180.html#page-2). Within a CSV, each _record_ is separated by a line break. Each record typically has multiple _fields_, and these fields are typically delimited by a comma (,) value, though you will often see fields delimited by other values such as the pipe character (|) or tabs. Well-documented datasets will often contain metadata that clarifies this kind of information. Because the CSV file adheres to the same row-column structure that you will find in a relational database system, it is also referred to as _structured_ data.
+
+##### Semi-Structured Data: JSON & XML
+JSON & XML are referred to as semi-structured datasets since they not are strictly organized in a relational format with columns and rows, yet they have some organizational structure to them. This structure may be clear from looking at documentation; however, in many cases you will need to inspect the data to understand the structure.
