@@ -31,7 +31,7 @@ Afternoon: Students work on individual projects, with Tim/Juan available to help
 
 ### Course Materials
 - [Pre-Course](https://github.com/black-tea/ucla-its-data-camp-2019/tree/master/Pre-Course)
-- Day 1
+- [Day 1](https://github.com/black-tea/ucla-its-data-camp-2019/tree/master/Day1)
 - Day 2
 - Day 3
 - Day 4
