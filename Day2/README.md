@@ -12,7 +12,7 @@ _Morning_
 4. Start Day 2 Exercise
 
 _Afternoon_
-1. Instruction - [PEP-8](https://www.python.org/dev/peps/pep-0008/)
+1. Instruction - [PEP-8](https://www.python.org/dev/peps/pep-0008/) & String formatting
 2. Day 2 Exercise (cont.)
 3. Day 2 Exercise Review
 3. Work on Project, after completion of in-class Exercise 
