@@ -15,6 +15,6 @@ _Morning_
 4. Start Day 1 Exercise
 
 _Afternoon_
-1. Instruction - Markdown & PEP-8
+1. Instruction - Markdown
 2. Day 1 Exercise (cont.) w/ Review between each
 3. Work on Project, after completion of in-class Exercise 
