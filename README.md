@@ -33,9 +33,9 @@ Afternoon: Students work on individual projects, with Tim/Juan available to help
 - [Pre-Course](Pre-Course)
 - [Day 1](Day1)
 - [Day 2](Day2)
-- Day 3(Day3)
-- Day 4(Day4)
-- Post-Course(Post-Course)
+- [Day 3](Day3)
+- [Day 4](Day4)
+- [Post-Course](Post-Course)
 
 ### Individual Project
 Each student should plan to do an individual mini-project that should be completed shortly after the course concludes. You are free to work on this project during class (if you have already completed the in-class activites) or as homework after the day is complete. The project topic, goal, and data are all completely up to you; by the end of the first day you should be knowledgeable of a few different transportation datasets to help you get started.
